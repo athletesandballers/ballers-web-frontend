@@ -3,12 +3,46 @@
   margin: 0;
 }
 
-.logo-app {
+.first-page-header {
   display: flex;
   justify-content: space-between;
   margin: 20px;
 }
+.get-app-main-container{
+  width: 118px;
+  height: 36px;
+  background-color: #171C17;
+  padding: 12px;
+  border: 1px;
+  border-radius: 16px;
+  text-align: center;
+  justify-content: center;
+}
+.get-app-text-icon-container{
+  vertical-align: center;
+  justify-content: center;
+}
+.get-app-text{
 
+  width: 62px;
+  height: 21px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+.get-app-icon{
+  width: 12;
+  height: 12;
+  top: 6px;
+  left: 6px;
+  border-width: 2px;
+  color: #FAFFFC;
+  align-items: center;
+}
 .ballerhq-icon {
   display: flex;
   align-items: center;
@@ -29,17 +63,17 @@
 }
 
 /* Revolutionise layer*/
-.Revolutionise {
+.first-page-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
 }
-.revolutionise-text {
+.first-page-body {
   margin-top: 50px;
   margin-left: 50px;
 }
 
-.Revolutionise .experience {
+.first-page-container .experience {
   width: 717px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 60px;
@@ -48,7 +82,7 @@
 .experience span {
   color: palegreen;
 }
-.Revolutionise .booking-session {
+.first-page-container .booking-session {
   width: 717px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
@@ -65,9 +99,12 @@ Button {
   margin-right: 10px;
   padding: 5px;
   color: white;
+  border-color: #A6A6A6;
   background-color: black;
+  border-width: 1px;
   box-sizing: 1px;
   border-radius: 16px;
+
 }
 /* This the star icon image styling*/
 .sport-platform {
