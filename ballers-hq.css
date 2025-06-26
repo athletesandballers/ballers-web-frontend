@@ -136,3 +136,78 @@
   bottom: -227px;
   right: -20px;
 }
+
+/* Third page styling*/
+.third-page-container {
+  width: 1392px;
+  height: 696px;
+  margin-bottom: 60px;
+  background-color: #07160D;
+  display: flex;
+}
+.third-page-body-icon-container {
+  position: relative;
+  right: 240px;
+  margin: auto;
+}
+.third-page-image img {
+  width: 626px;
+  height: 938.89px;
+  position: relative;
+  bottom: 40px;
+  right: 260px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.third-page-body {
+  padding: 16px 8px;
+}
+.third-page-body p {
+  width: 825px;
+  color: #fff;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -2px;
+}
+.third-page-body span {
+  width: 825px;
+  color: #45E081;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -2px;
+}
+
+.third-page-icons {
+  width: 936px;
+  height: 164px;
+  display: flex;
+  color: #FAFFFC;
+}
+.third-page-icons img {
+  width: 48px;
+  height: 44px;
+  background-color: #45E081;
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+
+.third-page-icon-single {
+  width: 290.67px;
+  height: 164px;
+}
+.third-page-icon-single p {
+  width: 250px;
+  font-family: inter;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.third-page-logo {
+  width: 255px;
+  height: 270.67px;
+  position: relative;
+  top: -0;
+  right: 180px;
+  transform: rotate(134.62deg);
+  z-index: 1px;
+}
