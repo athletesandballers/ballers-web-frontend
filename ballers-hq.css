@@ -211,3 +211,193 @@
   transform: rotate(134.62deg);
   z-index: 1px;
 }
+
+/* Fifth page styling */
+.fifth-page-container {
+  width: 1392px;
+  height: 522px;
+  padding: 56px;
+  background-color: #101828;
+  display: flex;
+  border-radius: 32px;
+}
+.fifth-page-image img {
+  width: 326px;
+  height: 410px;
+  border-radius: 49.49px;
+  padding: 8px;
+}
+
+.fifth-page-logo img {
+  width: 91.39px;
+  height: 97px;
+  position: relative;
+  right: -230px;
+  bottom: 110px;
+}
+.fifth-page-body {
+  margin-left: 56px;
+}
+.fifth-page-body p {
+  width: 862px;
+  height: 72px;
+  color: #FAFFFC;
+  font-size: 60px;
+  font-weight: 400px;
+  line-height: 72px;
+  letter-spacing: -2px;
+}
+.get-app-container {
+  width: 288.5px;
+  height: 44px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.google-play {
+  width: 148.5px;
+  height: 44px;
+}
+
+.app-store {
+  width: 132px;
+  height: 44px;
+}
+
+.fifth-page-form {
+  width: 862px;
+  height: 230px;
+  padding: 24px;
+  background-color: #0C111D;
+  border-radius: 32px;
+}
+fieldset {
+  border: none;
+}
+.fifth-page-form-radio-container {
+  width: 814px;
+  height: 94px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #1D2939;
+  display: flex;
+}
+.fifth-page-form-radio {
+height: 70px;
+padding-top: 12px;
+padding-right: 16px;
+padding-bottom: 12px;
+padding-left: 16px;
+font-weight: 500px;
+font-size: 14px;
+line-height: 20px;
+color: #F9FAFB;
+border-radius: 16px;
+border: 1px solid #344054;
+display: flex;
+flex-flow: column;
+align-items: flex-start;
+}
+.left-radio {
+  width: 204px;
+  margin-right: 8px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-radio img{
+  width: 56px;
+  height: 84px;
+}
+.right-radio {
+  width: 231px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.right-radio img{
+  width: 62.82px;
+  height: 64px;
+}
+.radio {
+  width: 16px;
+  height: 16px;
+  margin: 8px 8px;
+  background: #0D0D0D;
+  border-radius: 8px;
+  border: 1px solid #98A2B3;
+}
+
+.radio1:hover, .radio2:hover {
+background: #154327;
+border: 1px solid #29864D;
+cursor: pointer;
+}
+
+/* #Ballers{
+  color: #07160D;
+  fill: #29864D;
+background-color: #07160D;
+} */
+
+.fifth-page-form-email-number-container {
+  width: 814px;
+  height: 64px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+}
+.fifth-page-form-email-number-container span {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.fifth-page-form-email-number {
+  width: 310px;
+  height: 64px;
+  margin-right: 12;
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #0D0D0D;
+  border-radius: 16px;
+  border: 1px solid #475467
+}
+input[type="email"], input[type="tel"] {
+  width: 250px;
+  height: 21px;
+  color: #F9FAFB;
+  background: #0D0D0D;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+}
+.fifth-page-form-email-number-container button {
+  width: 134;
+  height: 64;
+  margin-right: 12px;
+  margin-left: 15px;
+  padding: 12px;
+  color: #fff;
+  background: #37B367;
+  border: 1px solid #37B367;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  border-radius: 16px;
+}

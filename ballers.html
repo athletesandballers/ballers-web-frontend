@@ -171,6 +171,7 @@
       </div>
     </div>
     <div class="fourth-page-container"></div>
+
     <div class="fifth-page-container">
       <div class="fifth-page-image">
         <img src="/Images/Girl in red.jpg" alt="Basket Baller">
@@ -181,11 +182,54 @@
       <div class="fifth-page-body">
         <div>
           <p>Join Nigeria's Sports Revolution</p>
-          <button>GET IT ON<br> Google PLay</button>
-          <button>Download on the<br> App Store</button>
+        </div>
+        <div class="get-app-container">
+          <a class="google-play" href="#googlePlay">
+            <img src="/Images/Mobile app store badge.svg" alt="Google Play">
+          </a>
+          <a class="app-store" href="#appleStore">
+            <img src="/Images/Mobile app store badge (1).svg" alt="Apple Store">
+          </a>
         </div>
         <div class="fifth-page-form">
-          <span></span>
+          <fieldset class="fifth-page-form-radio-container">
+            <div class="fifth-page-form-radio left-radio">
+              <div>
+                <div class="radio">
+                  <input type="radio" name="fifth-page-radio" value="ballerHq1" hidden="true" id="Ballers">
+                </div>
+                <label for="ballers">I'm a Baller</label>
+              </div>
+              <img src="/Images/Baller.gif" alt="Player">
+            </div>
+            <div class="fifth-page-form-radio right-radio">
+              <div>
+                <div class="radio">
+                  <input type="radio" name="fifth-page-radio" id="owners" value="ballerHq2" hidden="true">
+                </div>
+                <label for="owners">I'm an Arena Owner</label>
+              </div>
+              <img src="/Images/Basketball.gif" alt="Basketball-icon">
+            </div>
+          </fieldset>
+          <fieldset class="fifth-page-form-email-number-container">
+            <label hidden for="email">Email:</label>
+            <div class="fifth-page-form-email-number">
+              <img src="/Images/Icon-mail.svg" alt="Mail">
+              <input type="email" id="email" name="email" placeholder="Enter your email address">
+            </div>
+            <span>or</span>
+            <label hidden for="number">Mobile Number:</label>
+            <div class="fifth-page-form-email-number">
+              <img src="/Images/Icon-phone.svg" alt="Phone">
+              <input type="tel" id="number" name="number" placeholder="Enter your mobile number">
+            </div>
+            
+            <button>
+              Subscribe
+              <img src="/Images/Vector.svg" alt="Arrow right">
+            </button>
+          </fieldset>
         </div>
       </div>
     </div>
