@@ -337,12 +337,6 @@ border: 1px solid #29864D;
 cursor: pointer;
 }
 
-/* #Ballers{
-  color: #07160D;
-  fill: #29864D;
-background-color: #07160D;
-} */
-
 .fifth-page-form-email-number-container {
   width: 814px;
   height: 64px;
@@ -400,4 +394,63 @@ input[type="email"], input[type="tel"] {
   line-height: 100%;
   text-align: center;
   border-radius: 16px;
+}
+
+/* Sixth page styling */
+.sixth-page-container {
+  width: 1392px;
+  height: 208px;
+  padding: 56px;
+  border-radius: 32px;
+  background: #37B367;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sixth-page-header-nav-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sixth-page-header-nav-bar {
+  width: 640;
+  height: 40;
+  display: flex;
+  align-items: center;
+}
+.sixth-page-header-nav-bar .ballerhq-icon {
+  margin-right: 24px;
+}
+.sixth-page-nav-bar nav ul {
+  width: 249px;
+  height: 21px;
+  display: flex;
+}
+.sixth-page-nav-bar nav ul a {
+  margin-right: 24px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 100%;
+}
+nav ul {
+  list-style-type: none;  
+}
+.social-media-icons img {
+  margin-left: 24px;
+}
+
+.sixth-page-body {
+width: 1280px;
+height: 72px;
+color: #ECFCF2;
+font-weight: 400px;
+font-style: italic;
+font-size: 220px;
+line-height: 72px;
+text-align: center;
+position: relative;
+bottom: -90px;
 }
