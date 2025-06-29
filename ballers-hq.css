@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+.first-page-container {
+  width: 1392px;
+  height: 636px;
+  padding-right: 56px;
+  padding-left: 56px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+}
+
 .first-page-logo {
   display: flex;
   justify-content: space-between;
@@ -104,11 +113,11 @@
 }
 
 /* Why Ballers Layer Styling*/
-.second-page-images-container {
+.third-page-images-container {
   
 }
 
-.second-page-image {
+.third-page-image {
   width: 584px;
   height: 348px;
   display: flex;
@@ -118,17 +127,17 @@
   overflow: hidden;
 }
 
-.second-page-image-text {
+.third-page-image-text {
   display: flex;
 }
 
-.second-page-image-text img {
+.third-page-image-text img {
   width: 321px;
   height: 324px;
   border-radius: 24px;
 }
 
-.second-page-logo img {
+.third-page-logo img {
   width: 178px;
   height: 188.94px;
   opacity: 20%;
@@ -137,20 +146,21 @@
   right: -20px;
 }
 
-/* Third page styling*/
-.third-page-container {
+/* Fourth page styling*/
+.fourth-page-container {
   width: 1392px;
   height: 696px;
   margin-bottom: 60px;
   background-color: #07160D;
   display: flex;
+  border-radius: 32px;
 }
-.third-page-body-icon-container {
+.fourth-page-body-icon-container {
   position: relative;
   right: 240px;
   margin: auto;
 }
-.third-page-image img {
+.fourth-page-image img {
   width: 626px;
   height: 938.89px;
   position: relative;
@@ -159,17 +169,17 @@
   overflow-x: hidden;
   overflow-y: hidden;
 }
-.third-page-body {
+.fourth-page-body {
   padding: 16px 8px;
 }
-.third-page-body p {
+.fourth-page-body p {
   width: 825px;
   color: #fff;
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -2px;
 }
-.third-page-body span {
+.fourth-page-body span {
   width: 825px;
   color: #45E081;
   font-size: 60px;
@@ -177,13 +187,13 @@
   letter-spacing: -2px;
 }
 
-.third-page-icons {
+.fourth-page-icons {
   width: 936px;
   height: 164px;
   display: flex;
   color: #FAFFFC;
 }
-.third-page-icons img {
+.fourth-page-icons img {
   width: 48px;
   height: 44px;
   background-color: #45E081;
@@ -191,18 +201,18 @@
   border-radius: 8px;
 }
 
-.third-page-icon-single {
+.fourth-page-icon-single {
   width: 290.67px;
   height: 164px;
 }
-.third-page-icon-single p {
+.fourth-page-icon-single p {
   width: 250px;
   font-family: inter;
   font-size: 20px;
   line-height: 30px;
 }
 
-.third-page-logo {
+.fourth-page-logo {
   width: 255px;
   height: 270.67px;
   position: relative;
@@ -212,8 +222,8 @@
   z-index: 1px;
 }
 
-/* Fifth page styling */
-.fifth-page-container {
+/* sixth page styling */
+.sixth-page-container {
   width: 1392px;
   height: 522px;
   padding: 56px;
@@ -221,24 +231,24 @@
   display: flex;
   border-radius: 32px;
 }
-.fifth-page-image img {
+.sixth-page-image img {
   width: 326px;
   height: 410px;
   border-radius: 49.49px;
   padding: 8px;
 }
 
-.fifth-page-logo img {
+.sixth-page-logo img {
   width: 91.39px;
   height: 97px;
   position: relative;
   right: -230px;
   bottom: 110px;
 }
-.fifth-page-body {
+.sixth-page-body {
   margin-left: 56px;
 }
-.fifth-page-body p {
+.sixth-page-body p {
   width: 862px;
   height: 72px;
   color: #FAFFFC;
@@ -266,7 +276,7 @@
   height: 44px;
 }
 
-.fifth-page-form {
+.sixth-page-form {
   width: 862px;
   height: 230px;
   padding: 24px;
@@ -276,14 +286,14 @@
 fieldset {
   border: none;
 }
-.fifth-page-form-radio-container {
+.sixth-page-form-radio-container {
   width: 814px;
   height: 94px;
   padding-bottom: 24px;
   border-bottom: 1px solid #1D2939;
   display: flex;
 }
-.fifth-page-form-radio {
+.sixth-page-form-radio {
 height: 70px;
 padding-top: 12px;
 padding-right: 16px;
@@ -337,7 +347,7 @@ border: 1px solid #29864D;
 cursor: pointer;
 }
 
-.fifth-page-form-email-number-container {
+.sixth-page-form-email-number-container {
   width: 814px;
   height: 64px;
   margin-top: 24px;
@@ -349,12 +359,12 @@ cursor: pointer;
   font-size: 24px;
   line-height: 100%;
 }
-.fifth-page-form-email-number-container span {
+.sixth-page-form-email-number-container span {
   margin-right: 12px;
   margin-left: 12px;
 }
 
-.fifth-page-form-email-number {
+.sixth-page-form-email-number {
   width: 310px;
   height: 64px;
   margin-right: 12;
@@ -380,7 +390,7 @@ input[type="email"], input[type="tel"] {
   font-size: 16px;
   line-height: 100%;
 }
-.fifth-page-form-email-number-container button {
+.sixth-page-form-email-number-container button {
   width: 134;
   height: 64;
   margin-right: 12px;
@@ -396,8 +406,8 @@ input[type="email"], input[type="tel"] {
   border-radius: 16px;
 }
 
-/* Sixth page styling */
-.sixth-page-container {
+/* Seventh page styling */
+.seventh-page-container {
   width: 1392px;
   height: 208px;
   padding: 56px;
@@ -408,26 +418,26 @@ input[type="email"], input[type="tel"] {
   overflow: hidden;
 }
 
-.sixth-page-header-nav-bar-container {
+.seventh-page-header-nav-bar-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.sixth-page-header-nav-bar {
+.seventh-page-header-nav-bar {
   width: 640;
   height: 40;
   display: flex;
   align-items: center;
 }
-.sixth-page-header-nav-bar .ballerhq-icon {
+.seventh-page-header-nav-bar .ballerhq-icon {
   margin-right: 24px;
 }
-.sixth-page-nav-bar nav ul {
+.seventh-page-nav-bar nav ul {
   width: 249px;
   height: 21px;
   display: flex;
 }
-.sixth-page-nav-bar nav ul a {
+.seventh-page-nav-bar nav ul a {
   margin-right: 24px;
   text-decoration: none;
   color: #fff;
@@ -442,7 +452,7 @@ nav ul {
   margin-left: 24px;
 }
 
-.sixth-page-body {
+.seventh-page-body {
 width: 1280px;
 height: 72px;
 color: #ECFCF2;
