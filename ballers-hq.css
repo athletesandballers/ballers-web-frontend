@@ -29,8 +29,8 @@ img{
 }
 
 .first-page-navbar {
-    padding-left: 84px;
-    padding-right: 84px;
+    /*margin-left: 84px;*/
+    margin-right: 84px;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
