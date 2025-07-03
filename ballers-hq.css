@@ -2,8 +2,9 @@ body {
     padding: 0;
     margin: 0;
     font-family: Rethink Sans, serif;
-    background-color: #EAEAEA;
-    /*background-color: #667085;*/
+    background-color: #EAECF0;
+
+    max-width: 100vw
 }
 img{
     object-fit: cover;
@@ -12,7 +13,6 @@ img{
 .main-container {
     display: flex;
     flex-flow: column;
-    background-color: #EAEAEA;
 }
 
 .first-page-container {
@@ -251,7 +251,6 @@ video{
     height: 902px;
     border-bottom-width: 1px;
     margin: 114px 56px 0 56px;
-    background-color: #EAEAEA;
 
 }
 
