@@ -1,13 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    padding: 0;
-    margin: 0;
     font-family: Rethink Sans, serif;
     background-color: #EAECF0;
-
     max-width: 100vw
-}
-img{
-    object-fit: cover;
 }
 
 .main-container {
@@ -251,6 +251,7 @@ video{
     height: 902px;
     border-bottom-width: 1px;
     margin: 114px 56px 0 56px;
+    overflow: hidden;
 
 }
 
@@ -351,9 +352,8 @@ video{
 .third-page-card-container {
     display: flex;
     flex-flow: row;
-    width: 556px;
-    height: 324px;
-    /*gap: 24px;*/
+    width: 584px;
+    height: 348px;
     padding: 12px 16px 12px 12px;
     border-radius: 32px;
     background: #37B367;
@@ -378,7 +378,9 @@ video{
     height: 189px;
     opacity: 0.2;
     object-fit: fill;
-
+    position: relative;
+    right: -65px;
+    bottom: -78px;
 }
 
 .third-page-card-container-text-area {
@@ -392,7 +394,6 @@ video{
 .third-page-card-container-text-top {
     width: 211px;
     height: 52px;
-
     padding-top: 24px;
     font-weight: 600;
     font-size: 20px;
@@ -405,6 +406,7 @@ video{
 .third-page-card-container-text-bottom {
     width: 211px;
     height: 42px;
+    padding-top: 10px;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
@@ -417,10 +419,12 @@ video{
 .fourth-page-container {
     width: 1392px;
     height: 696px;
-    margin-bottom: 60px;
+    margin: 56px 0;
+    padding: 130px 0 130px 0;
     background-color: #07160D;
     display: flex;
     border-radius: 32px;
+    overflow: hidden;
 }
 
 .fourth-page-body-icon-container {
@@ -433,10 +437,8 @@ video{
     width: 626px;
     height: 938.89px;
     position: relative;
-    bottom: 40px;
+    bottom: 170px;
     right: 260px;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .fourth-page-body {
@@ -446,6 +448,9 @@ video{
 .fourth-page-body p {
     width: 825px;
     color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
     font-size: 60px;
     line-height: 72px;
     letter-spacing: -2px;
@@ -485,13 +490,15 @@ video{
     line-height: 30px;
 }
 
-.fourth-page-logo {
+.fourth-page-logo img {
     width: 255px;
     height: 270.67px;
+    margin: 0;
+    padding-top: 0;
     position: relative;
-    top: -0;
-    right: 180px;
-    transform: rotate(134.62deg);
+    top: -130px;
+    right: 425px;
+    /* transform: rotate(350.62deg); */
     z-index: 1;
 }
 
@@ -650,7 +657,7 @@ fieldset {
 .sixth-page-form-email-number {
     width: 310px;
     height: 64px;
-    margin-right: 12px;
+    /* margin-right: 12px; */
     padding: 14px 16px;
     display: flex;
     flex-flow: row;
@@ -713,7 +720,7 @@ input[type="email"], input[type="tel"] {
     align-items: center;
 }
 
-.seventh-page-header-nav-bar .ballerhq-icon {
+.seventh-page-header-nav-bar .logo-icon-and-text {
     margin-right: 24px;
 }
 
