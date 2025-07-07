@@ -7,7 +7,11 @@
 body {
     font-family: Rethink Sans, serif;
     background-color: #EAECF0;
-    max-width: 100vw
+    max-width: 100vw;
+}
+
+img{
+    object-fit: cover;
 }
 
 .main-container {
@@ -23,21 +27,18 @@ body {
     background-color: #FFFFFF;
     border-top-left-radius: 32px;
     border-top-right-radius: 32px;
-    /*padding-right: 56px;*/
     padding-left: 56px;
 
 }
 
 .first-page-navbar {
-    /*margin-left: 84px;*/
-    margin-right: 84px;
+    margin-right: 56px;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     height: 80px;
     padding-top: 24px;
     padding-bottom: 16px;
-
 
 }
 
@@ -78,7 +79,6 @@ body {
     height: 36px;
     border-radius: 16px;
     border-width: 1px;
-
 }
 
 .get-app-text {
@@ -106,12 +106,10 @@ body {
 
 
 .first-page-body-container {
-    /*width: 100%;*/
     height: 370px;
     display: flex;
     flex-flow: column;
     margin-left: 40px;
-    /*margin-right: 40px;*/
 }
 
 .first-page-body-main-content {
@@ -132,9 +130,6 @@ body {
 
     width: 717px;
     height: 216px;
-
-    /*gap: 8px;*/
-
     font-weight: 400;
     font-size: 60px;
     line-height: 72px;
@@ -174,7 +169,6 @@ body {
     flex-flow: column;
     width: 140px;
     height: 74px;
-    /*gap: 8px;*/
 
 }
 
@@ -199,7 +193,6 @@ body {
     justify-content: space-between;
     width: 290px;
     height: 140px;
-    /*gap: 14px;*/
     overflow: hidden;
 
 }
@@ -222,6 +215,7 @@ body {
     display: flex;
     flex-flow: row;
     width: 289px;
+    justify-content: space-between;
     height: 44px;
     margin-left: 40px;
 
@@ -250,7 +244,7 @@ video{
     flex-flow: column;
     height: 902px;
     border-bottom-width: 1px;
-    margin: 114px 56px 0 56px;
+    margin: 114px 0 0 56px;
     overflow: hidden;
 
 }
@@ -259,6 +253,7 @@ video{
     display: flex;
     flex-flow: row;
     height: 178px;
+    margin-right: 56px;
     gap: 8px;
     justify-content: space-between;
     align-items: flex-end;
@@ -371,16 +366,19 @@ video{
     flex-flow: column;
     justify-content: space-between;
     padding-left: 24px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
 }
 
 .third-page-card-container-text-icon-area > img {
     width: 178px;
     height: 189px;
     opacity: 0.2;
-    object-fit: fill;
-    position: relative;
-    right: -65px;
-    bottom: -78px;
+    position: absolute;
+    right: -20px;
+    bottom: -64px;
 }
 
 .third-page-card-container-text-area {
@@ -417,7 +415,6 @@ video{
 
 /* Fourth page styling*/
 .fourth-page-container {
-    width: 1392px;
     height: 696px;
     margin: 56px 0;
     padding: 130px 0 130px 0;
@@ -497,14 +494,13 @@ video{
     padding-top: 0;
     position: relative;
     top: -130px;
-    right: 425px;
+    right: 300px;
     /* transform: rotate(350.62deg); */
     z-index: 1;
 }
 
 /* sixth page styling */
 .sixth-page-container {
-    width: 1392px;
     height: 522px;
     padding: 56px;
     background-color: #101828;
@@ -657,7 +653,6 @@ fieldset {
 .sixth-page-form-email-number {
     width: 310px;
     height: 64px;
-    /* margin-right: 12px; */
     padding: 14px 16px;
     display: flex;
     flex-flow: row;
@@ -697,7 +692,6 @@ input[type="email"], input[type="tel"] {
 
 /* Seventh page styling */
 .seventh-page-container {
-    width: 1392px;
     height: 208px;
     padding: 56px;
     border-radius: 32px;
@@ -725,7 +719,6 @@ input[type="email"], input[type="tel"] {
 }
 
 .seventh-page-nav-bar nav ul {
-    width: 249px;
     height: 21px;
     display: flex;
 }
