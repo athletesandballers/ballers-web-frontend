@@ -61,10 +61,18 @@
     </div>
 
 <!--  Second page beginning   //-->
-    <video id="ballersVideo" width="vw" height="720" poster="assets/images/BHQ-video-thumbnail.png"  autoplay muted playsinline loop controls>
-        <source src="assets/videos/BHQ-resized-1366x720.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+
+    <div class="video-container">
+
+        <video id="ballersVideo" poster="assets/images/BHQ-video-thumbnail.png" autoplay muted playsinline loop>
+            <source src="assets/videos/BHQ-resized-1366x720.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <button id="muteToggleButton" class="mute-button">
+            <img id="muteIconSvg" src="assets/images/unmute-icon.svg" alt="Mute">
+            <img id="unmuteIconSvg" src="assets/images/mute-icon.svg" alt="Mute">
+        </button>
+    </div>
     <!--  Second page ending   //-->
 
 
