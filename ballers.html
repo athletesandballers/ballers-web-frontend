@@ -9,24 +9,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="ballers-hq.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Ballers HQ</title>
+
 </head>
 <body>
+  
 <div class="main-container">
     <div class="first-page-container">
         <div class="first-page-navbar">
             <div class="logo-icon-and-text">
                 <img src="assets/images/bhq-logo-green-black-bg.jpg" alt="Baller HQ">
                 <div>Ballers</div>
+       
             </div>
+             <nav class="main-nav">
+        <div class="nav-container">
+            <ul class="nav-tabs">
+                <li><a href="ballers.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="terms.html" class=""><i class="fas fa-file-contract"></i> Terms and Conditions</a></li>
+                <li><a href="#"><i class="fas fa-users"></i> Communities</a></li>
+                <li><a href="#"><i class="fas fa-info-circle"></i> About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    
 
             <div class="get-app-main-container">
-                <div class="get-app-text">Get App</div>
+
+              
+                <div class="get-app-text"> Get App</div>
                 <div class="get-app-icon-container">
                     <img class="get-app-icon" src="assets/images/arrow-narrow-up-right.svg" alt="Get app">
-                </div>
-            </div>
-
+                </div>            
+            </div> 
         </div>
 
 
@@ -289,5 +307,32 @@
 
 </div>
 <script src="assets/js/ballers-hq.js"></script>
+<style>
+     nav {
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+     nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        nav a {
+            color: #1a2a6c;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+</style>
 </body>
+<!-- Add this navigation menu right after the <body> tag -->
+
 </html>

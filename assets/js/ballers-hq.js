@@ -2,10 +2,10 @@ const video = document.getElementById('ballersVideo');
 const muteButton = document.getElementById('muteButton');
 
 // Handle mute/unmute toggle
-muteButton.addEventListener('click', () => {
-    video.muted = !video.muted;
-    muteButton.textContent = video.muted ? '🔇 Mute' : '🔊 Unmute';
-});
+// muteButton.addEventListener('click', () => {
+//     video.muted = !video.muted;
+//     muteButton.textContent = video.muted ? '🔇 Mute' : '🔊 Unmute';
+// });
 
 // Auto-play video on scroll using IntersectionObserver
 const observer = new IntersectionObserver(
@@ -22,6 +22,18 @@ const observer = new IntersectionObserver(
         threshold: 0.5 // At least 50% in view
     }
 );
+
+    // Simple script to highlight the current page in navigation
+    document.addEventListener('DOMContentLoaded', function() {
+        const currentPage = window.location.pathname.split('/').pop();
+        const navLinks = document.querySelectorAll('.nav-tabs a');
+        
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPage) {
+                link.classList.add('active');
+            }
+        });
+    });
 
 observer.observe(video);
 
