@@ -13,7 +13,11 @@ body {
 img{
     object-fit: cover;
 }
-
+input:focus {
+    outline: #fafffc;   /* removes the blue outline in an input */
+    box-shadow: none; /* removes extra glow on some browsers */
+    border: 1px solid #fff; /* optional: add your own border */
+}
 .main-container {
     display: flex;
     flex-flow: column;
