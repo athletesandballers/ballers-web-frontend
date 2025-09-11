@@ -218,46 +218,49 @@
                 </a>
             </div>
             <div class="sixth-page-form">
-                <fieldset class="sixth-page-form-radio-container">
-                    <div class="sixth-page-form-radio left-radio">
-                        <div>
-                            <div class="radio">
-                                <input type="radio" name="sixth-page-radio" value="ballerHq1" hidden="true"
-                                id="Ballers">
+                <form class="subscribe-form" id="notifyForm">
+                    <fieldset class="sixth-page-form-radio-container">
+                        <div class="sixth-page-form-radio left-radio">
+                            <div>
+                                <div class="radio">
+                                    <input type="radio" name="userType" value="BALLER" hidden="true"
+                                    id="ballers">
+                                </div>
+                                <label for="ballers">I'm a Baller</label>
                             </div>
-                            <label for="ballers">I'm a Baller</label>
+                            <img src="assets/images/Baller.gif" alt="Player">
                         </div>
-                        <img src="assets/images/Baller.gif" alt="Player">
-                    </div>
-                    <div class="sixth-page-form-radio right-radio">
-                        <div>
-                            <div class="radio">
-                                <input type="radio" name="sixth-page-radio" id="owners" value="ballerHq2"
-                                hidden="true">
+                        <div class="sixth-page-form-radio right-radio">
+                            <div>
+                                <div class="radio">
+                                    <input type="radio" name="userType" id="owners" value="CLIENT"
+                                    hidden="true">
+                                </div>
+                                <label for="owners">I'm an Arena Owner</label>
                             </div>
-                            <label for="owners">I'm an Arena Owner</label>
+                            <img src="assets/images/Basketball.gif" alt="Basketball-icon">
                         </div>
-                        <img src="assets/images/Basketball.gif" alt="Basketball-icon">
-                    </div>
-                </fieldset>
-                <fieldset class="sixth-page-form-email-number-container">
-                    <label hidden for="email">Email:</label>
-                    <div class="sixth-page-form-email-number">
-                        <img src="assets/images/Icon-mail.svg" alt="Mail">
-                        <input type="email" id="email" name="email" placeholder="Enter your email address">
-                    </div>
-                    <span>or</span>
-                    <label hidden for="number">Mobile Number:</label>
-                    <div class="sixth-page-form-email-number">
-                        <img src="assets/images/Icon-phone.svg" alt="Phone">
-                        <input type="tel" id="number" name="number" placeholder="Enter your mobile number">
-                    </div>
+                    </fieldset>
+                    <fieldset class="sixth-page-form-email-number-container">
+                        <label hidden for="email">Email:</label>
+                        <div class="sixth-page-form-email-number">
+                            <img src="assets/images/Icon-mail.svg" alt="Mail">
+                            <input type="email" id="email" name="email" placeholder="Enter your email address">
+                        </div>
+                        <span>or</span>
+                        <label hidden for="phone">Mobile Number:</label>
+                        <div class="sixth-page-form-email-number">
+                            <img src="assets/images/Icon-phone.svg" alt="Phone">
+                            <input type="tel" id="phone" name="number" placeholder="Enter your whatsapp number">
+                        </div>
 
-                    <button>
-                        Subscribe
-                        <img src="assets/images/Vector.svg" alt="Arrow right">
-                    </button>
-                </fieldset>
+                        <button  type="submit">
+                            Subscribe
+                            <img src="assets/images/Vector.svg" alt="Arrow right">
+                        </button>
+                    </fieldset>
+                    <div class="message" id="message"></div>
+                </form>
             </div>
         </div>
     </div>

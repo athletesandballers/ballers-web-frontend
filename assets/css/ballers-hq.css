@@ -740,6 +740,17 @@ input[type="email"], input[type="tel"] {
     border-radius: 16px;
 }
 
+fieldset button:hover{
+    cursor: pointer;
+
+}
+
+.error-border {
+    border: 1px solid red !important;
+    border-radius: 8px; /* keep it consistent */
+}
+
+
 /* Seventh page styling */
 .seventh-page-container {
     height: 208px;
@@ -1568,20 +1579,21 @@ nav ul {
       line-height: 100%;
     }
 
+
+
     .sixth-page-form-email-number-container button {
-      width: 100%;
-      height: 64px;
-      opacity: 1;
-      border-radius: 16px;
-      padding: 12px;
-      color: #fff;
-      background: #37B367;
-      border: 1px solid #37B367;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 100%;
-      text-align: center;
-      border-radius: 16px;
+        width: 100%;
+        height: 64px;
+        opacity: 1;
+        border-radius: 16px;
+        padding: 12px;
+        color: #fff;
+        background: #37B367;
+        border: 1px solid #37B367;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        text-align: center;
     }
 
     /* Seventh page styling */
