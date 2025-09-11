@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - BallersHQ</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="include.js" defer></script>
+    <style>
+        /* Reset & Base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9fafb;
+            color: #111827;
+            line-height: 1.6;
+        }
+
+        /* Container */
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #16a34a, #1e3a8a);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            border-radius: 1rem;
+            margin-bottom: 2rem;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Section Titles */
+        section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #1e3a8a;
+        }
+
+        /* Content Sections */
+        .our-story,
+        .our-vision,
+        .team {
+            margin-bottom: 2.5rem;
+        }
+        .our-story p,
+        .our-vision p {
+            font-size: 1rem;
+            color: #374151;
+        }
+
+        /* Team Section */
+        .team ul {
+            list-style: none;
+            padding: 0;
+        }
+        .team li {
+            background: white;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            border-left: 5px solid #16a34a;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        .team li strong {
+            color: #1e3a8a;
+        }
+
+    </style>
+</head>
+<body>
+<!-- Import Header -->
+<div data-include="header.html"></div>
+
+<main class="container">
+    <section class="hero">
+        <h1>About BallersHQ</h1>
+        <p>
+            At BallersHQ, our mission is to simplify sports access and create a
+            thriving ecosystem for players, arena owners, referees, and scouts.
+        </p>
+    </section>
+
+    <section class="our-story">
+        <h2>Our Story</h2>
+        <p>
+            Born out of the love for sports, BallersHQ started with a simple idea:
+            make it easier for players to book arenas and connect with opportunities.
+            From pickup games to organized tournaments, we’re building a platform that
+            brings the entire sports community together.
+        </p>
+    </section>
+
+    <section class="our-vision">
+        <h2>Our Vision</h2>
+        <p>
+            We aim to become the go-to hub for grassroots sports development in
+            Nigeria and beyond — creating visibility for talent, streamlining arena
+            management, and powering the next generation of athletes.
+        </p>
+    </section>
+
+    <section class="team">
+        <h2>Meet the Team</h2>
+        <ul>
+            <li><strong>Bashir Onuche Okala</strong> – CEO & Tech Lead</li>
+            <li><strong>Tahir Abdullahi</strong> – CFO</li>
+            <li><strong>Johnathan Johnson</strong> – UI/UX Specialist</li>
+            <li><strong>Terfa Daniel</strong> – COO</li>
+        </ul>
+    </section>
+</main>
+
+<!-- Import Footer -->
+<div data-include="footer.html"></div>
+</body>
+</html>
